@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="zO9Gfeqr-AhngP560AJ7">
+    <mxGraphModel dx="1409" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontColor=#ffffff;" value="Início" vertex="1">
+          <mxGeometry height="40" width="40" x="690" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ler nota do aluno" vertex="1">
+          <mxGeometry height="50" width="220" x="600" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Verificar se a nota está entre 0 e 10" vertex="1">
+          <mxGeometry height="50" width="320" x="550" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Nota válida?" vertex="1">
+          <mxGeometry height="100" width="160" x="630" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Nota fora do intervalo permitido!" vertex="1">
+          <mxGeometry height="60" width="250" x="380" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Nota ≥ 6?" vertex="1">
+          <mxGeometry height="100" width="160" x="790" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Resultado: Aprovado" vertex="1">
+          <mxGeometry height="50" width="200" x="690" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Resultado: Reprovado" vertex="1">
+          <mxGeometry height="50" width="200" x="950" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Exibir resultado para o usuário" vertex="1">
+          <mxGeometry height="50" width="280" x="770" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Fim" vertex="1">
+          <mxGeometry height="60" width="60" x="870" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Fim" vertex="1">
+          <mxGeometry height="60" width="60" x="460" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-12" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-1" target="pz6RsZ32kUGUYzcwHJfj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-13" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-2" target="pz6RsZ32kUGUYzcwHJfj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-14" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-3" target="pz6RsZ32kUGUYzcwHJfj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-15" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-4" target="pz6RsZ32kUGUYzcwHJfj-5" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-16" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-5" target="pz6RsZ32kUGUYzcwHJfj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-17" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-4" target="pz6RsZ32kUGUYzcwHJfj-6" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-18" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-6" target="pz6RsZ32kUGUYzcwHJfj-7" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-19" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-6" target="pz6RsZ32kUGUYzcwHJfj-8" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-20" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-7" target="pz6RsZ32kUGUYzcwHJfj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-21" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-8" target="pz6RsZ32kUGUYzcwHJfj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pz6RsZ32kUGUYzcwHJfj-22" edge="1" parent="1" source="pz6RsZ32kUGUYzcwHJfj-9" target="pz6RsZ32kUGUYzcwHJfj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
